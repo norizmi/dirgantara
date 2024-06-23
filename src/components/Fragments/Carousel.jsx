@@ -2,11 +2,10 @@
 import frame1 from "../assets/frame1.png";
 import frame2 from "../assets/frame2.png";
 import frame3 from "../assets/frame3.png";
-// import Button from "./Button";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 import { AutoScroll } from '@splidejs/splide-extension-auto-scroll'
-import Button from "./Button";
+import Button from "../Elements/Button";
 
 
 function Carousel() {
@@ -23,7 +22,7 @@ function Carousel() {
             autoScroll: {
                 pauseOnHover: true,
                 pauseOnFocus: false,
-                speed: 0.8
+                speed: 1
             },
          }}
         extensions={{ AutoScroll }}> 

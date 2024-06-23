@@ -7,9 +7,6 @@ export default {
   ],
   theme: {
     extend: {},
-    colors: {
-      'nav-grey': '#C7C7C7'
-    }
   },
   plugins: [
     require('daisyui')
