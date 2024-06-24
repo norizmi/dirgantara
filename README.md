@@ -1,8 +1,7 @@
-# React + Vite
+Dirgantara
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dirgantara adalah permainan yang dikemas dengan konsep gamifikasi. Permainan yang debut memiliki banyak varian, seperti monopoli, ular tanga, dan kartu. Semua game tersebut tentang digital marketing yang memiliki role, seperti CEO, Graphic Design, Brand Ambassador, dan masih banyak lagi. Setiap role memiliki keahliannya masing - masing.
 
-Currently, two official plugins are available:
+Website ini dibuat sebagai tempat informasi mengenai segala yang ada dalam permainan tersebut.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Saat ini sedang dikembang untuk permainan ular tangga.
