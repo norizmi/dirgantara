@@ -1,4 +1,4 @@
-import logoDigantara from '../assets/logo-dirgantara.png';
+import logoDigantara from '../assets/images/logo-dirgantara.png';
 
 function Header() {
   return (

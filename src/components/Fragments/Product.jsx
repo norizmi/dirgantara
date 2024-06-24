@@ -1,11 +1,11 @@
-import ularGame from "../assets/ular-game.png";
-import monopoli from "../assets/monopoli-game.png"
-import kartuGame from "../assets/kartu-game.png"
+import ularGame from "../assets/images/ular-game.png";
+import monopoli from "../assets/images/monopoli-game.png"
+import kartuGame from "../assets/images/kartu-game.png"
 
 function Product() {
   return (
     <>
-      <div className="mt-8 text-center">
+      <div className="mt-8 text-center relative">
         <div>
           <p className="text-center font-bold text-black text-2xl mb-3">
             Produk Kami
@@ -50,6 +50,7 @@ function Product() {
             </button>
           </div>
         </div>
+        <div className="absolute left-0 right-0 h-20 bg-[#F0F0F0] rounded-b-[55%]"></div>
       </div>
     </>
   );

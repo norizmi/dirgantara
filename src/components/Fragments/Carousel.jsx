@@ -1,7 +1,7 @@
 /* eslint-disable no-mixed-spaces-and-tabs */
-import frame1 from "../assets/frame1.png";
-import frame2 from "../assets/frame2.png";
-import frame3 from "../assets/frame3.png";
+import frame1 from "../assets/images/frame1.png";
+import frame2 from "../assets/images/frame2.png";
+import frame3 from "../assets/images/frame3.png";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 import { AutoScroll } from '@splidejs/splide-extension-auto-scroll'
