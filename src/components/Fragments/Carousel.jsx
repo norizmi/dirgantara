@@ -27,19 +27,19 @@ function Carousel() {
          }}
         extensions={{ AutoScroll }}> 
         <SplideSlide>
-            <div className="relative">
+            <div>
             <img src={frame1} alt="image 1" className="w-screen"/>
             <Button>Selengkapnya</Button>
             </div>
         </SplideSlide>
         <SplideSlide>
-            <div className="relative">
+            <div>
             <img src={frame2} alt="image 1" className="w-screen"/>
         <Button>Selengkapnya</Button>
             </div>
         </SplideSlide>
         <SplideSlide>
-            <div className="relative">
+            <div>
             <img src={frame3} alt="image 1" className="w-screen"/>
         <Button>Selengkapnya</Button>
             </div>
