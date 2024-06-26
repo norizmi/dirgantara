@@ -7,7 +7,7 @@ function Header() {
   const [isFixed, setIsFixed] = useState(false);
   const menuRef = useRef(null);
 
-  useEffect(() => {
+  useEffect(() => { 
     const handleScroll = () => {
       const scrollThreshold = 200;
       if (window.scrollY > scrollThreshold) {
