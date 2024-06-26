@@ -27,20 +27,6 @@ const Spinner = () => {
     setTimeout(() => {
       setShowAlert(false);
     }, 5000);
-
-    switch(result) {
-      case 'Option 1':
-        console.log('Action for Option 1');
-        break;
-      case 'Option 2':
-        console.log('Action for Option 2');
-        break;
-      case 'Option 3':
-        console.log('Action for Option 3');
-        break;
-      default:
-        console.log('Unknown option');
-    }
   };
 
   const spinWheelProps = {
