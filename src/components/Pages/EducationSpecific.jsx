@@ -11,7 +11,6 @@ function EducationSpecific() {
 
   const handleMore = () => {
     setMore(!more);
-    console.log("ini show more");
   };
 
   return (
