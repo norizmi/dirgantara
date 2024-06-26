@@ -24,7 +24,6 @@ const Spinner = () => {
     setSpinResult(result);
     setShowAlert(true);
 
-    // Hide the alert after 3 seconds
     setTimeout(() => {
       setShowAlert(false);
     }, 5000);
@@ -52,8 +51,8 @@ const Spinner = () => {
     buttonText: "Spin",
     isOnlyOnce: false,
     size: 180,
-    upDuration: 100,
-    downDuration: 600,
+    upDuration: 200,
+    downDuration: 700,
     fontFamily: "Arial",
     arrowLocation: "top",
     showTextOnSpin: true,
