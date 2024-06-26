@@ -19,7 +19,7 @@ function Footer() {
         </nav>
         <nav className="mx-auto">
           <div className="flex justify-center items-center gap-2">
-            <a href="">
+            <a href="https://www.instagram.com/dirgantaragames.id/">
               <img src={ig} alt="instagram" />
             </a>
             <a>
