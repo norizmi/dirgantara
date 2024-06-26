@@ -33,7 +33,7 @@ function Header() {
       >
         <div className="container mx-auto flex justify-around items-center">
           <div className="flex-1">
-            <a href="/"><img src={logoDigantara} alt="logo-dirgantara"/></a>
+            <a href="/"><img src={logoDigantara} alt="logo-dirgantara" className="w-11"/></a>
           </div>
           <div className="flex-none relative" ref={menuRef}>
             <div className="drawer drawer-end">
