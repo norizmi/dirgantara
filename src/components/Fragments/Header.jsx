@@ -32,7 +32,7 @@ function Header() {
       >
         <div className="container mx-auto flex justify-around items-center">
           <div className="flex-1">
-            <img src={logoDigantara} alt="logo-dirgantara" />
+            <a href="/"><img src={logoDigantara} alt="logo-dirgantara"/></a>
           </div>
           <div className="flex-none relative" ref={menuRef}>
             <div className="drawer drawer-end">
@@ -54,6 +54,9 @@ function Header() {
                 ></label>
                 <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
                   <div className="flex flex-col items-center mt-10">
+                  <li>
+                      <a href="/">Home</a>
+                    </li>
                     <li>
                       <a>Role in Game</a>
                     </li>
@@ -62,6 +65,12 @@ function Header() {
                     </li>
                     <li>
                       <a>Dirgantara Products</a>
+                    </li>
+                    <li>
+                      <a>Education</a>
+                    </li>
+                    <li>
+                      <a>Spinner</a>
                     </li>
                     <li>
                       <a href="/contact">Contact</a>

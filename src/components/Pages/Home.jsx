@@ -51,10 +51,9 @@ function Home() {
             </div>
           </div>
           <div>
-            <div className="flex items-center mb-4 pl-9 pt-10">
-              <span className="w-1 h-3 bg-black mr-2"></span>
-              <p className="text-black text-sm font-extralight">
-                Frequently Asked Questions
+            <div className="flex items-center justify-center mt-5 mb-7">
+              <p className="text-black font-semibold text-2xl">
+                FAQ's
               </p>
             </div>
             <div className="flex justify-center items-center">

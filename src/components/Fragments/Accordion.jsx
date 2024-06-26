@@ -39,7 +39,7 @@ function Accordion() {
                     Berapa harga produk Dirgantara?
                   </div>
                   <div className="collapse-content">
-                    <p>Seharga 40.000</p>
+                    <p>Seharga 49.999</p>
                   </div>
                 </div>
               </div>
