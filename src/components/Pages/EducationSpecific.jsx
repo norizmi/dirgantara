@@ -5,6 +5,13 @@ import MobileView from "../Layout/MobileView";
 import Clock from "../assets/icon/clock.svg";
 import Back from "../assets/icon/back.svg";
 import { useState } from "react";
+import "@vidstack/react/player/styles/default/theme.css";
+import "@vidstack/react/player/styles/default/layouts/video.css";
+import { MediaPlayer, MediaProvider } from "@vidstack/react";
+import {
+  defaultLayoutIcons,
+  DefaultVideoLayout,
+} from "@vidstack/react/player/layouts/default";
 
 function EducationSpecific() {
   const [more, setMore] = useState(true);
@@ -27,7 +34,13 @@ function EducationSpecific() {
               />
             </Link>
             <div className="mt-10">
-              <div className="bg-blue-500 h-52 rounded-lg"></div>
+              <MediaPlayer
+                title="Google Ads"
+                src="https://www.youtube.com/watch?v=L3btCFT0WmI"
+              >
+                <MediaProvider />
+                <DefaultVideoLayout icons={defaultLayoutIcons} />
+              </MediaPlayer>
             </div>
             <div>
               <h2 className="text-lg text-black font-sans font-semibold mt-4">
@@ -61,20 +74,19 @@ function EducationSpecific() {
                 {!more ? (
                   <div className="mt-2 text-sm text-black font-semibold cursor-pointer w-[335px]">
                     <p className="text-justify text-black mt-4 text-sm font-light">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged. It was popularised in the 1960s with
-                    the release of Letraset sheets containing Lorem Ipsum
-                    passages, and more recently with desktop publishing software
-                    like Aldus PageMaker including versions of Lorem Ipsum
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry
+                      standard dummy text ever since the 1500s, when an unknown
+                      printer took a galley of type and scrambled it to make a
+                      type specimen book. It has survived not only five
+                      centuries, but also the leap into electronic typesetting,
+                      remaining essentially unchanged. It was popularised in the
+                      1960s with the release of Letraset sheets containing Lorem
+                      Ipsum passages, and more recently with desktop publishing
+                      software like Aldus PageMaker including versions of Lorem
+                      Ipsum
                     </p>
-                    <p>
-                      Show less
-                    </p>    
+                    <p className="mt-2">Show less</p>
                   </div>
                 ) : (
                   <p className="mt-2 text-sm text-black font-semibold cursor-pointer active:scale-95 w-max">

@@ -71,7 +71,7 @@ function Header() {
                      <Link to="/education">Education</Link>
                     </li>
                     <li>
-                      <a>Spinner</a>
+                      <Link to="/spinner">Spinner</Link>
                     </li>
                     <li>
                       <Link to="/contact">Contact</Link>
