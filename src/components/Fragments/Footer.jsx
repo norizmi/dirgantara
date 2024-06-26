@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ig from "../assets/icon/ig.svg";
 import tiktok from "../assets/icon/tiktok.svg";
 import x from "../assets/icon/x.svg";
@@ -9,13 +10,13 @@ function Footer() {
       <footer className="footer bg-[#AE4743] text-white p-8 flex flex-col mt-4">
         <nav>
           <h6 className="font-semibold">DIRGANTARA</h6>
-          <a className="link link-hover" href="/">Home</a>
-          <a className="link link-hover">Role in Game</a>
-          <a className="link link-hover">How to Play</a>
-          <a className="link link-hover">Dirgantara Products</a>
-          <a className="link link-hover">Education</a>
-          <a className="link link-hover">Spinner</a>
-          <a className="link link-hover" href="/contact">Contact</a>
+          <Link className="link link-hover" to="/">Home</Link>
+          <Link className="link link-hover" to="/">Role in Game</Link>
+          <Link className="link link-hover" to="/">How to Play</Link>
+          <Link className="link link-hover" to="/">Dirgantara Products</Link>
+          <Link className="link link-hover" to="/education">Education</Link>
+          <Link className="link link-hover" to="/">Spinner</Link>
+          <Link className="link link-hover" to="/contact">Contact</Link>
         </nav>
         <nav className="mx-auto">
           <div className="flex justify-center items-center gap-2">

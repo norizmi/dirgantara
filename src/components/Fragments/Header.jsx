@@ -1,6 +1,7 @@
 import logoDigantara from "../assets/images/logo-dirgantara.png";
 import { useState, useEffect, useRef } from "react";
 import menu from "../assets/icon/menu.svg";
+import { Link } from "react-router-dom";
 
 function Header() {
   const [isFixed, setIsFixed] = useState(false);
@@ -55,7 +56,7 @@ function Header() {
                 <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
                   <div className="flex flex-col items-center mt-10">
                   <li>
-                      <a href="/">Home</a>
+                      <Link to="/">Home</Link>
                     </li>
                     <li>
                       <a>Role in Game</a>
@@ -67,13 +68,13 @@ function Header() {
                       <a>Dirgantara Products</a>
                     </li>
                     <li>
-                      <a>Education</a>
+                     <Link to="/education">Education</Link>
                     </li>
                     <li>
                       <a>Spinner</a>
                     </li>
                     <li>
-                      <a href="/contact">Contact</a>
+                      <Link to="/contact">Contact</Link>
                     </li>
                   </div>
                 </ul>

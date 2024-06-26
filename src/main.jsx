@@ -1,9 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import Home from './components/Pages/Home'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Home from './components/Pages/Home'
 import Contact from './components/Pages/Contact'
+import EducationPage from './components/Pages/Education'
+
+
 
 const router = createBrowserRouter([
   {
@@ -14,12 +17,17 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact />
-  }
+  },
+
+   {
+    path: "/education",
+    element: <EducationPage />
+   }
   
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>,
+  </React.StrictMode>
 )

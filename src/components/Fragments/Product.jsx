@@ -16,6 +16,7 @@ function Product() {
           </p>
         </div>
 
+        <div className="flex flex-col items-center">
         <div>
           <div className="mt-16 font-sans flex justify-center items-center flex-wrap">
             <img src={ularGame} alt="ular-tangga" />
@@ -50,6 +51,9 @@ function Product() {
             </button>
           </div>
         </div>
+        </div>
+
+   
         <div className="absolute left-0 right-0 h-20 bg-[#F0F0F0] rounded-b-[55%]"></div>
       </div>
     </>
