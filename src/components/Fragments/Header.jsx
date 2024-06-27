@@ -9,7 +9,7 @@ function Header() {
 
   useEffect(() => { 
     const handleScroll = () => {
-      const scrollThreshold = 200;
+      const scrollThreshold = 250;
       if (window.scrollY > scrollThreshold) {
         setIsFixed(true);
       } else {
@@ -59,7 +59,7 @@ function Header() {
                       <Link to="/">Home</Link>
                     </li>
                     <li>
-                      <a>Role in Game</a>
+                      <Link to="/role">Role in Game</Link>
                     </li>
                     <li>
                       <a>How to Play</a>

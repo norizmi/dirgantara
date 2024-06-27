@@ -7,6 +7,7 @@ import Contact from './components/Pages/Contact'
 import EducationPage from './components/Pages/Education'
 import EducationSpecific from './components/Pages/EducationSpecific'
 import Spinner from './components/Pages/Spinner'
+import Role from './components/Pages/Role'
 
 
 
@@ -34,6 +35,11 @@ const router = createBrowserRouter([
    {
     path: "/spinner",
     element: <Spinner />
+   },
+
+   {
+    path: "/role",
+    element: <Role />
    }
   
 ])
