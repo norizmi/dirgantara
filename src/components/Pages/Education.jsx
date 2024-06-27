@@ -13,7 +13,7 @@ function EducationPage() {
                 <h1 className="text-lg font-semibold text-black font-sans text-center">Materi Digital Marketing</h1>
                 <ListCard />
             </div>
-            <Footer /> 
+            <Footer />
         </MobileView>
    </>
   )

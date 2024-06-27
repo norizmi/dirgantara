@@ -55,7 +55,7 @@ const Spinner = () => {
                 className="mt-9 hover:bg-slate-200 p-2 hover:rounded-full ml-7"
               />
             </Link>
-      <div className="flex flex-col items-center mt-10 mb-10">
+      <div className="flex flex-col items-center mt-10 mb-12">
         <SpinWheel {...spinWheelProps} />
         {showAlert && (
           <div className="mt-4 p-4 bg-blue-100 border border-blue-400 text-blue-700 rounded w-4/5 max-w-sm">

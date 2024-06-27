@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 import ig from "../assets/icon/ig.svg";
 import tiktok from "../assets/icon/tiktok.svg";
@@ -7,7 +8,7 @@ import x from "../assets/icon/x.svg";
 function Footer() {
   return (
     <>
-      <footer className="footer bg-[#AE4743] text-white p-8 flex flex-col mt-4">
+      <footer className={`footer bg-[#AE4743] text-white p-8 flex flex-col mt-4`}>
         <nav>
           <h6 className="font-semibold">DIRGANTARA</h6>
           <Link className="link link-hover" to="/">Home</Link>
@@ -21,7 +22,7 @@ function Footer() {
         <nav className="mx-auto">
           <div className="flex justify-center items-center gap-2">
             <a href="https://www.instagram.com/dirgantaragames.id/">
-              <img src={ig} alt="instagram" />
+              <img src={ig} alt="instagram"/>
             </a>
             <a>
               <img src={tiktok} alt="tiktok" />

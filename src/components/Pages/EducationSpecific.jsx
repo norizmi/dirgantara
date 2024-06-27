@@ -97,7 +97,7 @@ function EducationSpecific() {
             </div>
           </div>
         </div>
-        <Footer />
+        <Footer  />
       </MobileView>
     </>
   );
