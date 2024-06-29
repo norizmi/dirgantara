@@ -65,7 +65,7 @@ function Header() {
                       <a>How to Play</a>
                     </li>
                     <li>
-                      <a>Dirgantara Products</a>
+                      <Link to="/products">Dirgantara Products</Link>
                     </li>
                     <li>
                      <Link to="/education">Education</Link>

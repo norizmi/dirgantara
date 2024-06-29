@@ -8,6 +8,7 @@ import EducationPage from './components/Pages/Education'
 import EducationSpecific from './components/Pages/EducationSpecific'
 import Spinner from './components/Pages/Spinner'
 import Role from './components/Pages/Role'
+import DirgantaraProducts from './components/Pages/Products'
 
 
 
@@ -40,6 +41,11 @@ const router = createBrowserRouter([
    {
     path: "/role",
     element: <Role />
+   },
+
+   {
+    path: "/products",
+    element: <DirgantaraProducts />
    }
   
 ])

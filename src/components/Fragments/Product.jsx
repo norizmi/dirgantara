@@ -25,7 +25,7 @@ function Product() {
               menggabungkan hiburan dan pembelajaran melalui konsep gamifikasi”
             </p>
             <button className="btn mt-8 bg-neutral-300 text-black border-none hover:bg-slate-800 hover:text-white">
-              <a href="/">Selengkapnya</a>
+              <a href="/products">Selengkapnya</a>
             </button>
           </div>
         </div>
@@ -36,7 +36,7 @@ function Product() {
             “Monopoli edukasi adalah permainan papan yang menggabungkan konsep monopoli dengan pembelajaran melalui gamifikasi”
             </p>
             <button className="btn mt-8 bg-neutral-300 text-black border-none hover:bg-slate-800 hover:text-white">
-              <a href="/">Selengkapnya</a>
+              <a href="/products">Selengkapnya</a>
             </button>
           </div>
         </div>
@@ -47,7 +47,7 @@ function Product() {
             “Permainan kartu edukasi adalah permainan yang menggabungkan unsur hiburan dari kartu dengan pembelajaran melalui gamifikasi”
             </p>
             <button className="btn mt-8 bg-neutral-300 text-black border-none hover:bg-slate-800 hover:text-white">
-              <a href="/">Selengkapnya</a>
+              <a href="/products">Selengkapnya</a>
             </button>
           </div>
         </div>

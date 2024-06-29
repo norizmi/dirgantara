@@ -14,7 +14,7 @@ function Footer() {
           <Link className="link link-hover" to="/">Home</Link>
           <Link className="link link-hover" to="/role">Role in Game</Link>
           <Link className="link link-hover" to="/">How to Play</Link>
-          <Link className="link link-hover" to="/">Dirgantara Products</Link>
+          <Link className="link link-hover" to="/products">Dirgantara Products</Link>
           <Link className="link link-hover" to="/education">Education</Link>
           <Link className="link link-hover" to="/spinner">Spinner</Link>
           <Link className="link link-hover" to="/contact">Contact</Link>
