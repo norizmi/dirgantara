@@ -14,7 +14,7 @@ function Home() {
         <Header />
         <Carousel />
         <div className="font-sans">
-          <div className="mt-20 ml-9 mb-8">
+          <div className="mt-20 ml-9 mb-10">
             <p className="text-2xl text-black font-semibold underline underline-offset-8">
               KAMI DIRGANTARA
             </p>
