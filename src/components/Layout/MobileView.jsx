@@ -2,8 +2,8 @@
 function MobileView({children}) {
   return (
     <>
-        <main className="my-0 mx-auto min-h-full max-w-[400px]">
-          <div className="my-0 mx-auto min-h-screen overflow-x-hidden bg-[#F0F0F0] text-black">
+        <main className="my-0 mx-auto min-h-full max-w-screen-sm">
+          <div className="my-0 mx-auto min-h-screen overflow-x-hidden bg-[#F0F0F0] max-w-[400px] w-full text-black">
               {children}
           </div>
         </main>
