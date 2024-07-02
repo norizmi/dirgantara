@@ -9,45 +9,41 @@ import EducationSpecific from './components/Pages/EducationSpecific'
 import Spinner from './components/Pages/Spinner'
 import Role from './components/Pages/Role'
 import DirgantaraProducts from './components/Pages/Products'
-
-
+import SpecificRole from './components/Pages/SpecificRole'
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />
   },
-
   {
     path: "/contact",
     element: <Contact />
   },
-
-   {
+  {
     path: "/education",
     element: <EducationPage />
-   },
-
-   {
+  },
+  {
     path: "/education/lesson",
     element: <EducationSpecific />
-   },
-
-   {
+  },
+  {
     path: "/spinner",
     element: <Spinner />
-   },
-
-   {
+  },
+  {
     path: "/role",
     element: <Role />
-   },
-
-   {
+  },
+  {
     path: "/products",
     element: <DirgantaraProducts />
-   }
-  
+  },
+  {
+    path: "/role/:roleName",
+    element: <SpecificRole />
+  }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
