@@ -10,6 +10,7 @@ import Spinner from './components/Pages/Spinner'
 import Role from './components/Pages/Role'
 import DirgantaraProducts from './components/Pages/Products'
 import SpecificRole from './components/Pages/SpecificRole'
+import HowToPlay from './components/Pages/HowToPlay'
 
 const router = createBrowserRouter([
   {
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
   {
     path: "/role/:roleName",
     element: <SpecificRole />
+  },
+  {
+    path: "/how-to-play",
+    element: <HowToPlay />
   }
 ])
 

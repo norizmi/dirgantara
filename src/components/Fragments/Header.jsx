@@ -62,7 +62,7 @@ function Header() {
                       <Link to="/role">Role in Game</Link>
                     </li>
                     <li>
-                      <a>How to Play</a>
+                      <Link to="/how-to-play">How to Play</Link>
                     </li>
                     <li>
                       <Link to="/products">Dirgantara Products</Link>

@@ -11,7 +11,7 @@ import seo from "../assets/images/seo.jpg"
 import Back from "../assets/icon/back.svg";
 
 const roleInfo = {
-  'ceo': {
+  ceo : {
     title: 'CEO',
     image: ceo,
     description: 'Chief Executive Officer (CEO) adalah jabatan tertinggi yang ada pada jajaran manajemen dari suatu perusahaan baik itu perusahaan dengan skala besar maupun menengah. Dalam aktivitas bisnis, seorang CEO diberikan kepercayaan untuk mengelola keseluruhan perusahaan, membuat keputusan penting dan bertindak sebagai titik komunikasi utama dengan dewan direksi sekaligus para pemegang saham.',
@@ -36,7 +36,7 @@ const roleInfo = {
     image: ba,
     description: 'Brand Ambassador adalah representasi penting dari citra dan nilai suatu merek atau perusahaan. Dalam perannya, seorang Brand Ambassador diberikan tanggung jawab untuk mempromosikan produk atau layanan, membangun hubungan dengan pelanggan, dan meningkatkan kesadaran merek melalui berbagai kegiatan publik, media sosial, dan kampanye pemasaran.'
   },
-  'seo': {
+  seo: {
     title: 'SEO Specialist',
     image: seo,
     description: 'SEO (Search Engine Optimization) Specialist adalah posisi kunci dalam tim pemasaran digital yang fokus pada optimalisasi visibilitas online perusahaan. Dalam kegiatan sehari-hari, seorang SEO Specialist diberikan tugas untuk menganalisis, menerapkan, dan memantau strategi SEO, meningkatkan peringkat situs web di mesin pencari, dan memaksimalkan lalu lintas organik untuk meningkatkan kehadiran online perusahaan.'
@@ -46,6 +46,7 @@ const roleInfo = {
 function SpecificRole() {
   const { roleName } = useParams();
   const role = roleInfo[roleName];
+
 
   if (!role) {
     return <div>Role not found</div>;
@@ -65,7 +66,7 @@ function SpecificRole() {
         <h2 className="text-2xl font-bold mb-6">{role.title}</h2>
         <img src={role.image} alt={role.title} className="w-full h-48 object-cover rounded-lg mb-4" />
         <h1 className='text-xl font-semibold font-sans mb-4 mt-4'>Penjelasan Role</h1>
-        <p className="text-gray-700 w-72 text-sm text-justify">{role.description}</p>
+        <p className="text-gray-700 w-full text-sm text-justify">{role.description}</p>
       </div>
       <Footer />
     </MobileView>

@@ -13,7 +13,7 @@ function Footer() {
           <h6 className="font-semibold">DIRGANTARA</h6>
           <Link className="link link-hover" to="/">Home</Link>
           <Link className="link link-hover" to="/role">Role in Game</Link>
-          <Link className="link link-hover" to="/">How to Play</Link>
+          <Link className="link link-hover" to="/how-to-play">How to Play</Link>
           <Link className="link link-hover" to="/products">Dirgantara Products</Link>
           <Link className="link link-hover" to="/education">Education</Link>
           <Link className="link link-hover" to="/spinner">Spinner</Link>
