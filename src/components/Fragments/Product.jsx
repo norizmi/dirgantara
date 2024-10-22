@@ -11,15 +11,15 @@ function Product() {
           <p className="font-bold text-black text-2xl mb-3">
             Produk Kami
           </p>
-          <p className="text-black font-extralight text-xs mx-auto w-[318px]">
+          <p className="text-black font-extralight text-md mx-auto w-[318px]">
             “Permainan Ular Tangga Edukasi, permainan Monopoli Edukasi,
             permainan kartu edukasi”
           </p>
         </div>
 
-        <div className={`mx-auto mt-5 max-w-fit`}>
         <div>
-          <div className="mt-16 font-sans flex justify-center flex-wrap">
+        <div>
+          <div className="mt-16 font-sans flex justify-center flex-col items-center">
             <img src={ularGame} alt="ular-tangga" className="mx-auto"/>
             <p className="text-sm text-black w-[275px] font-extralight">
               “Permainan ular tangga edukasi adalah permainan papan yang
@@ -31,7 +31,7 @@ function Product() {
           </div>
         </div>
         <div>
-          <div className="mt-16 font-sans flex justify-center flex-wrap">
+          <div className="mt-16 font-sans flex justify-center flex-col items-center">
             <img src={monopoli} alt="ular-tangga" className="mx-auto"/>
             <p className="text-sm text-black w-[275px] font-extralight">
             “Monopoli edukasi adalah permainan papan yang menggabungkan konsep monopoli dengan pembelajaran melalui gamifikasi”
@@ -42,7 +42,7 @@ function Product() {
           </div>
         </div>
         <div>
-          <div className="mt-16 font-sans flex justify-center flex-wrap">
+          <div className="mt-16 font-sans flex justify-center flex-col items-center">
             <img src={kartuGame} alt="ular-tangga" className="mx-auto"/>
             <p className="text-sm text-black w-[275px] font-extralight">
             “Permainan kartu edukasi adalah permainan yang menggabungkan unsur hiburan dari kartu dengan pembelajaran melalui gamifikasi”
