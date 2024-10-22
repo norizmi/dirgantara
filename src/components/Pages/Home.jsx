@@ -7,6 +7,7 @@ import Product from "../Fragments/Product";
 import MobileView from "../Layout/MobileView";
 import arrow from "../assets/icon/arrow.svg";
 
+
 function Home() {
   return (
     <>
