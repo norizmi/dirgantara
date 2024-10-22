@@ -19,7 +19,7 @@ function Product() {
 
         <div className={`mx-auto mt-5 max-w-fit`}>
         <div>
-          <div className="mt-16 font-sans">
+          <div className="mt-16 font-sans flex justify-center flex-wrap">
             <img src={ularGame} alt="ular-tangga" className="mx-auto"/>
             <p className="text-sm text-black w-[275px] font-extralight">
               “Permainan ular tangga edukasi adalah permainan papan yang
