@@ -11,7 +11,7 @@ function HowToPlay() {
         <div>
           <div className="font-sans bg-[#BEBEBE] p-7 pb-24">
             <h2 className="text-2xl font-semibold">Cara Bermain</h2>
-            <p className="font-extralight mt-2 text-sm w-60">
+            <p className="font-extralight mt-2 text-md w-96">
               Sudah siap bermain permainan dirgantara? Mari bermain bersama
               dengan penuh semangat
             </p>
@@ -23,16 +23,16 @@ function HowToPlay() {
             </h1>
             <div className="mt-7">
                     <div className="font-sans">
-                        <h1 className="text-xl font-bold">Persiapan</h1>
-                        <ol className="mt-3 text-justify text-sm">
+                        <h1 className="text-2xl font-bold">Persiapan</h1>
+                        <ol className="mt-3 text-justify text-md">
                             <li className="mb-2">1. Sebelum memulai permainan, setiap pemain harus memindai kode QR unik yang tertera pada kartu yang disediakan. Kode QR ini akan menghubungkan pemain ke situs web Dirgantara</li>
                             <li>2. Setelah berhasil memindai kode QR, pemain akan diarahkan ke halaman spinner pada situs web Dirgantara. Halaman spinner ini akan digunakan sebagai pengganti dadu dalam permainan.</li>
                         </ol>
                     </div>
 
                     <div className="font-sans">
-                        <h1 className="text-xl font-bold mt-6">Cara Bermain</h1>
-                        <ol className="mt-3 text-justify text-sm">
+                        <h1 className="text-2xl font-bold mt-6">Cara Bermain</h1>
+                        <ol className="mt-3 text-justify text-md">
                             <li className="mb-2">1. Permainan dimulai dengan setiap pemain bergiliran memutar spinner pada halaman web. Spinner akan menentukan berapa langkah yang harus diambil oleh pemain pada papan permainan.</li>
                             <li className="mb-2">2. Setelah memutar spinner, pemain harus melangkah sesuai dengan angka yang muncul pada spinner. Pergerakan pemain mengikuti aturan ular tangga tradisional, seperti naik tangga atau turun ular.</li>
                             <li className="mb-2">3. Di beberapa nomor tertentu pada papan permainan, terdapat "spesial nomor" yang membuat pemain mendapatkan pertanyaan atau tantangan seputar digital marketing.</li>
@@ -46,8 +46,8 @@ function HowToPlay() {
                     </div>
 
                     <div className="font-sans">
-                        <h1 className="text-xl font-bold mt-6">Aturan Tambahan</h1>
-                        <ol className="mt-3 text-justify text-sm">
+                        <h1 className="text-2xl font-bold mt-6">Aturan Tambahan</h1>
+                        <ol className="mt-3 text-justify text-md">
                             <li className="mb-2">1. Permainan dimainkan seperti ular tangga tradisional, dengan aturan tambahan dari spesial nomor, kartu tantangan/pertanyaan, dan powerup.</li>
                             <li className="mb-2">2. Pemain dapat maju atau mundur sesuai dengan angka pada spinner dan harus mengikuti aturan ular tangga seperti biasa (naik tangga atau turun ular).</li>
                             <li className="mb-2">3. Powerup yang diperoleh dari kartu dapat digunakan sesuai dengan keterangan pada kartu tersebut, seperti melangkah lebih jauh, mendapatkan poin tambahan, atau keuntungan lainnya.</li>

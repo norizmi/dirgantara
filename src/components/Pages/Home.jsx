@@ -19,16 +19,16 @@ function Home() {
             <p className="text-2xl text-black font-semibold underline underline-offset-8">
               KAMI DIRGANTARA
             </p>
-            <p className="text-black w-[264px] mt-7 text-sm font-extralight">
+            <p className="text-black w-96 mt-7 text-sm font-extralight">
             Dirgantara adalah platform pembelajaran digital marketing inovatif yang menerapkan konsep gamifikasi untuk membantu pemain meningkatkan  pengetahuan dan keterampilan mereka. Fitur menarik seperti video, kuis, dan game membuat belajar lebih efektif dan menyenangkan, dengan materi yang selalu terbaru dan relevan.
             </p>
           </div>
           <div className="bg-[#AE4743] relative pl-9 pt-10 pb-32">
             <div className="flex items-center mb-4">
               <span className="w-1 h-3 bg-white mr-2"></span>
-              <p className="text-white text-sm font-extralight">Tentang Kami</p>
+              <p className="text-white text-md font-extralight">Tentang Kami</p>
             </div>
-            <p className="w-[246px] text-white">
+            <p className="w-96 text-white">
               "Dirgantara: The Digital Marketing Adventure Board Game" -
               jelajahi pemasaran digital dengan cara paling menyenangkan!
               Gameplay seru menggabungkan konsep pemasaran dengan edukasi.

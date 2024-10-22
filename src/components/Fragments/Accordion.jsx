@@ -1,7 +1,7 @@
 function Accordion() {
   return (
     <>
-        <div className="join join-vertical w-[343px] text-black font-extralight text-sm">
+        <div className="join join-vertical w-[343px] text-black font-extralight text-md">
                 <div className="collapse collapse-arrow join-item border-b-2">
                   <input type="checkbox" name="my-accordion-4" />
                   <div className="collapse-title">Apa itu Gamifikasi?</div>

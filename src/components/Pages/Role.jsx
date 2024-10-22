@@ -25,9 +25,9 @@ function Role() {
       <MobileView>
         <Header />
         <div className="h-full">
-          <div className="text-black font-sans ml-7 mt-16 w-60">
-            <h2 className="text-xl font-semibold">Role dalam permainan</h2>
-            <p className="font-light mt-3 text-sm">
+          <div className="text-black font-sans ml-7 mt-16 w-96">
+            <h2 className="text-2xl font-semibold">Role dalam permainan</h2>
+            <p className="font-light mt-3 text-md">
               Setiap role memiliki kemampuan khusus yang dapat digunakan selama
               permainan
             </p>
