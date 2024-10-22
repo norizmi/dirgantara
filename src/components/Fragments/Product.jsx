@@ -16,7 +16,7 @@ function Product() {
           </p>
         </div>
 
-        <div>
+        <div className="flex flex-col gap-5 mt-5">
         <div>
           <div className="mt-16 font-sans flex justify-center flex-wrap">
             <img src={ularGame} alt="ular-tangga" />
