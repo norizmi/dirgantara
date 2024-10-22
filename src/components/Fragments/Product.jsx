@@ -17,10 +17,10 @@ function Product() {
           </p>
         </div>
 
-        <div className={`flex flex-col gap-5 mt-5`}>
+        <div className={`flex flex-col gap-5 mt-5 max-w-fit`}>
         <div>
           <div className="mt-16 font-sans flex justify-center flex-wrap">
-            <img src={ularGame} alt="ular-tangga" />
+            <img src={ularGame} alt="ular-tangga" className="mx-auto"/>
             <p className="text-sm text-black w-[275px] font-extralight">
               “Permainan ular tangga edukasi adalah permainan papan yang
               menggabungkan hiburan dan pembelajaran melalui konsep gamifikasi”
@@ -32,7 +32,7 @@ function Product() {
         </div>
         <div>
           <div className="mt-16 font-sans flex justify-center flex-wrap">
-            <img src={monopoli} alt="ular-tangga" />
+            <img src={monopoli} alt="ular-tangga" className="mx-auto"/>
             <p className="text-sm text-black w-[275px] font-extralight">
             “Monopoli edukasi adalah permainan papan yang menggabungkan konsep monopoli dengan pembelajaran melalui gamifikasi”
             </p>
@@ -43,7 +43,7 @@ function Product() {
         </div>
         <div>
           <div className="mt-16 font-sans flex justify-center flex-wrap">
-            <img src={kartuGame} alt="ular-tangga" />
+            <img src={kartuGame} alt="ular-tangga" className="mx-auto"/>
             <p className="text-sm text-black w-[275px] font-extralight">
             “Permainan kartu edukasi adalah permainan yang menggabungkan unsur hiburan dari kartu dengan pembelajaran melalui gamifikasi”
             </p>
