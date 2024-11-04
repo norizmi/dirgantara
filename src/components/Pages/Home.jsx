@@ -28,7 +28,7 @@ function Home() {
               <span className="w-1 h-3 bg-white mr-2"></span>
               <p className="text-white text-md font-extralight">Tentang Kami</p>
             </div>
-            <p className="w-96 text-white w-[300px]">
+            <p className="text-white w-[300px]">
               "Dirgantara: The Digital Marketing Adventure Board Game" -
               jelajahi pemasaran digital dengan cara paling menyenangkan!
               Gameplay seru menggabungkan konsep pemasaran dengan edukasi.
