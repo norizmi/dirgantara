@@ -27,7 +27,7 @@ function Header() {
   return (
     <header className="transition-all duration-300 shadow-lg">
       <div
-        className={`navbar top-0 left-0 right-0 bg-[#C7C7C7] z-10 ${
+        className={`navbar top-0 left-0 right-0 bg-[#C7C7C7] z-20 ${
           isFixed ? "fixed shadow-md" : "sticky"
         }`}
       >
