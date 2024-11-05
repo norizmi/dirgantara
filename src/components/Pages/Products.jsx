@@ -70,8 +70,8 @@ function DirgantaraProducts() {
     <MobileView>
       <Header />
       <div className="font-sans w-96 mt-14 pl-8">
-        <h2 className="text-2xl font-semibold">Produk kami</h2>
-        <p className="text-md font-light mt-4">
+        <h2 className="text-2xl font-semibold ">Produk kami</h2>
+        <p className="text-sm font-light mt-4 pr-12 w-80">
           Temukan penjelasan mendalam tentang setiap permainan, cara bermain,
           dan manfaat edukatif yang ditawarkan
         </p>
@@ -126,9 +126,9 @@ function DirgantaraProducts() {
           </Splide>
         </div>
 
-        <div className="font-sans pl-4 mt-10 w-96 mb-12">
+        <div className="font-sans pl-4 mt-10 w-72 mb-12">
           <h3 className="text-2xl font-semibold">{titles[currentSlide]}</h3>
-          <p className="text-md font-light mt-2">{descriptions[currentSlide]}</p>
+          <p className="text-sm font-light mt-2">{descriptions[currentSlide]}</p>
         </div>
       </div>
       <Footer />

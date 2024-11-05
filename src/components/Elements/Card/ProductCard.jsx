@@ -4,6 +4,7 @@ function ProductCard({title, level, duration, img, paramUrl}) {
   return (
     <>
     <a href={paramUrl}>
+      <div className='flex gap-7 gap-x-10'>
     <div className="flex bg-white gap-4 w-[335px] mx-auto rounded-lg shadow-md p-4 hover:bg-[#AE4743] hover:text-white group cursor-pointer">
         <div>
           <img src={img} alt="email-marketing" className="w-28 h-20 rounded-lg"/>
@@ -25,6 +26,7 @@ function ProductCard({title, level, duration, img, paramUrl}) {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </a>
     </>

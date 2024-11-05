@@ -11,7 +11,7 @@ function Product() {
           <p className="font-bold text-black text-2xl mb-3">
             Produk Kami
           </p>
-          <p className="text-black font-extralight text-md mx-auto w-[318px]">
+          <p className="text-black font-extralight text-md mx-auto w-[318px] p-3">
             “Permainan Ular Tangga Edukasi, permainan Monopoli Edukasi,
             permainan kartu edukasi”
           </p>
